@@ -1,7 +1,8 @@
 package com.example.quizgame.buttons;
 
-public enum Activities {
+public enum ButtonTypes {
     HomePage,
     Settings,
     Play,
+    Quit
 }

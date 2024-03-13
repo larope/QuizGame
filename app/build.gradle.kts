@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.quizgame"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.quizgame"
