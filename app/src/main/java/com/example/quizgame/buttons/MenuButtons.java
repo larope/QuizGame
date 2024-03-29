@@ -1,6 +1,6 @@
 package com.example.quizgame.buttons;
 
-public enum ButtonTypes {
+public enum MenuButtons {
     HomePage,
     Settings,
     Play,
