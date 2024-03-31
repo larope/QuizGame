@@ -3,8 +3,8 @@ package com.example.quizgame.questions;
 public class Question {
     public Question(String question, String[] options, int rightAnswer){
         this.question = question;
-        this.Options = options;
-        this.rightAnswer = rightAnswer;
+        this.options = options;
+        this.rightOption = rightAnswer;
     }
     public static Question[] AllQuestions = new Question[]{
             new Question(
@@ -30,6 +30,6 @@ public class Question {
     };
 
     public String question;
-    public String[] Options = new String[4];
-    public int rightAnswer;
+    public String[] options = new String[4];
+    public int rightOption;
 }
